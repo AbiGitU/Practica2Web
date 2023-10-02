@@ -1,5 +1,5 @@
 #titulo {
-    background: #333;
+    background: #eab676;
     color: white;
     height: 80px;
 }
@@ -13,12 +13,12 @@
     text-decoration: none;
 }
 #header:hover {
-    color: #0b76a6;
+    color: #0a0808;
 }
 
 #header .nombre {
     display: block;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 45px;
 }
 
@@ -27,22 +27,127 @@ nav {
 }
 nav ul {
     margin: 0;
-    padding: 0;
     list-style: none;
-    padding-right: 20px;
+    padding: 20px 20px;
+    font-size: 25px;
 }
 
 nav ul li {
     display: inline-block;
-    line-height: 80px;
+    line-height: 45px;
 }
 
 nav ul li a {
     display: block;
-    padding: 0 10px;
+    padding: 0 5px;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 nav ul li a:hover {
-    background: #0b76a6;
+    background: #7b5d04;
+    border-radius: 15px;
 }
+
+.aside {
+    position: absolute;
+    background-color: bisque;
+    padding: 0 20px;
+    top: 100px;
+    left: 8px;
+    bottom: -160px;
+    width: 10%;
+    display: flex;
+
+}
+
+.categorias {
+    background-color: #7b5d04;
+    float: left;
+    margin: 0;
+    height: 35px;
+    line-height: 30px;
+    color: #fff;
+    padding: 5px 58px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
+.asideLista {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    list-style: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+p {
+    margin: 0 0 1.5em 0;
+}
+
+h1 {
+    font-size: 2.3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+.section {
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.background {
+    background-color: #f9f0b3;
+    padding-bottom: 20px;
+}
+
+.content {
+    padding: 40px;
+}
+
+.tituloSection {
+    background-color: black;
+    margin: 0;
+    height: 35px;
+    line-height: 30px;
+    color: #fff;
+    padding: 5px 58px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: #eab676;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.PF {
+    background-color: #7b5d04;
+    margin: 0;
+    height: 35px;
+    line-height: 30px;
+    color: #fff;
+    padding: 5px 58px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.articulos {
+    background: #f9f6df;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
