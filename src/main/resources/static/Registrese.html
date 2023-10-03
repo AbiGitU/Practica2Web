@@ -15,33 +15,67 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <body>
         <header id="titulo">
 
-            <a id="header" href="#">
+            <a id="header" href="index.html">
                 <span class="nombre">MichiNet</span>			
             </a>
 
             <nav>
                 <ul>
-                    <li><a href="#">Preguntas Frecuentes</a></li>
-                    <li><a href="#">Conozcanos</a></li>
-                    <li><a href="#">Especialistas</a></li>
-                    <li><a href="#">Registrese</a></li>
+                    <li><a href="index.html" >Inicio</a></li>
+                    <li><a href="Preguntas Frecuentes.html" >Preguntas Frecuentes</a></li>
+                    <li><a href="Sitios Relacionados.html">Sitios Relacionados</a></li>
+                    <li><a href="Especialistas.html">Especialistas</a></li>
+                    <li><a href="Registrese.html">Registrese</a></li>
                 </ul>
             </nav>
 
         </header>
 
         <section>
+            <h2 class="PF" >Registrese para recibir noticias e información de Gatos</h2>
+            
+            <img src="imagenes/imagine-9348e0ed7d96.jpg" width="300" alt=""/>
 
-            <article>
-                
+            <form name="Registrese" action="/info/registro" method="POST">
+                <table border="0">
 
-            </article>
+                    <tbody>
+                        <tr>
+                            <td>Nombre Completo</td>
+                            <td><input type="text" placeholder="Nombre Completo" 
+                                       name="Nombre" value="" size="30" required /></td>
+                        </tr>
+                        <tr>
+                            <td>Correo Electrónico</td>
+                            <td><input type="email" placeholder="Correo@hotmail.com" 
+                                       name="Correo" value="" size="30" required /></td>
+                        </tr>
+                        <tr>
+                            <td>Dirección</td>
+                            <td><input type="text" placeholder="¿Desde donde nos ves?" 
+                                       name="Direc" value="" size="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>Edad</td>
+                            <td><input type="text" placeholder="¿Que edad tienes?" 
+                                       name="Edad" value="" size="30" min="15"/></td>
+                        </tr>
+                        
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Registrate :)" /></td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+
+            </form>
 
         </section>
-        
+
         <footer class="footer">
-		&copy; MichiNet
-	</footer>
+            &copy; MichiNet
+        </footer>
 
     </body>
 </html>
