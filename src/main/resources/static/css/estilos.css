@@ -2,24 +2,29 @@
     background: #eab676;
     color: white;
     height: 80px;
+    font-family: 'The Cat FREE';
 }
 #titulo a {
     color: white;
+    font-family: 'The Cat FREE';
 }
 
 #header {
     float: left;
     padding: 15px 0 0 20px;
     text-decoration: none;
+    font-family: 'The Cat FREE';
 }
 #header:hover {
     color: #0a0808;
+    font-family: 'The Cat FREE';
 }
 
 #header .nombre {
     display: block;
     font-weight: 700;
     font-size: 45px;
+    font-family: 'The Cat FREE';
 }
 
 nav {
@@ -162,17 +167,99 @@ tr {
     margin-bottom: 1px;
     padding: 20px;
     width: auto;
-    
+
 }
 .idc-box .idc-titulo {
     font-weight: 700;
     text-align: center;
-    
+
 }
 .idc-box li, .idc-box ul, .idc-box ul li{
     padding: 0 5px;
     list-style: outside none none !important;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+.display {
+    display: flex;
+    max-width: 100vw;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(rgba(250,235,215,5), rgba(160,82,45,5));
+}
+
+.img {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+    object-position: center;
+    padding: 6px;
+}
+
+.img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(1.05);
+    transform: rotate(-1.2deg) scale(1.05);
+    transition: 0.6s ease-out;
+    filter: grayscale(0.9);
+}
+
+.caption{
+    background-color: #a52a2a;
+    padding: 10px 10px;
+    text-transform: none;
+    font-size: 20px;
+    font-weight:bold;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    border-radius: 15px;
+    margin: 6px 50px;
+    text-align: center;
+    background: linear-gradient(rgba(205,92,92,5), rgba(128,0,0,5));
+}
+
+.videos {
+    background: #f9f6df;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    max-width: 200vw;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.articulosAcc {
+    background: #f9f6df;
+    max-width: 700px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+.tituloSectionAcc {
+    background-color: black;
+    line-height: 15px;
+    color: #fff;
+    padding: 30px 300px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
 
