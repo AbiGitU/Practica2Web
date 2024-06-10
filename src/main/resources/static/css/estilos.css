@@ -2,7 +2,7 @@
     background: #eab676;
     color: white;
     height: 80px;
-    font-family: 'The Cat FREE';
+    font-family: 'The Cat FREE'; 
 }
 #titulo a {
     color: white;
@@ -25,6 +25,7 @@
     font-weight: 700;
     font-size: 45px;
     font-family: 'The Cat FREE';
+    font-size: 70px;
 }
 
 nav {
